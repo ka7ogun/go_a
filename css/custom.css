@@ -13,3 +13,15 @@
 .tall { height: 500px;
 
 }
+
+
+.topnav li { list-style   : none;
+		  	 float		  : left;
+		  	 padding-right: 10%;
+		  	
+
+}
+
+.dropdown { 
+				
+ }
