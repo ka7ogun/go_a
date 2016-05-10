@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+
+<html>
+	<head> 
+		<title>Graders America </title>
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/custom.css">
+	</head>
+	
+	<body>
+		<form>
+			<div class="container">
+			<!------Section1------>
+				<div class="row">
+					<div class="col-sm-6"> 
+				
+					<div class="form-group">
+					    <label for="teachName"> Name: </label>
+					    <input type="text" class="form-control" id="teachName" placeholder="Teacher Name">
+					 </div>
+					 </div>
+
+					 <div class="col-sm-6"> 
+						<div class="form-group">
+					    <label for="teachEmail">Email address</label>
+					    <input type="email" class="form-control" id="teachEmail" placeholder="Email">
+					  </div>
+					</div>
+				</div>
+			<!------Section2------>
+
+				<div class="row">
+					<div class="col-sm-12"> 
+						<div class="form-group">
+						<label for="teachSchool"> School Name: </label>
+						 <input type="text" class="form-control" id="teachSchool" placeholder="Name of School">
+						  </div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-sm-12"> 
+						<div class="form-group">
+						<label for="addressSchoola"> School Address: </label>
+						 <input type="text" class="form-control" id="addressSchoola" placeholder="Address of School">
+						  </div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-5"> 
+						<div class="form-group">
+					    <label for="addressSchoolb"> City: </label>
+					    <input type="text" class="form-control" id="addressSchoolb" placeholder="City">
+					  </div>
+					</div>
+
+					<div class="col-sm-4"> 
+						<div class="form-group">
+					    <label for="addressSchoolc"> State: </label>
+					    <input type="text" class="form-control" id="addressSchoolc" placeholder="State">
+					  </div>
+					</div>
+
+					<div class="col-sm-3"> 
+						<div class="form-group">
+					    <label for="addressSchoold"> Zip: </label>
+					    <input type="text" class="form-control" id="addressSchoold" placeholder="Zip Code">
+					  </div>
+					</div>
+				</div>
+
+				<div class="row">
+					<div class="col-sm-12"> 
+						<label for="Subject"> Subject Area: </label>
+							<div class="table-responsive">
+  								<table class="table">
+  									<tr>
+  										<td>
+										    <div class="checkbox">
+										    	<label><input type="checkbox"> ELL			</label>
+											    <label><input type="checkbox"> English 			</label>
+								      			<label><input type="checkbox"> Creative Writing </label>
+								      			<label><input type="checkbox"> Business Writing </label>
+								      		</div>
+						    			</td>
+						    			<td>
+							    			<div class="checkbox">
+							      				<label><input type="checkbox">  Spanish </label>
+								    			<label><input type="checkbox">  French  </label>
+								    			<label><input type="checkbox">  Latin   </label>
+								    			<label><input type="checkbox">  German  </label>
+								    		</div>
+						    			</td>
+						    			<td>
+							    			<div class="checkbox">
+							    				<label><input type="checkbox">  Basic Math	</label>
+							    				<label><input type="checkbox">  MS Math		</label>
+							    				<label><input type="checkbox">  Algebra 	</label>
+							    				<label><input type="checkbox">  Geometry	</label>
+				    							<label><input type="checkbox">  Triganometry </label>
+				    						</div>
+				    					</td>
+						    			<td>
+							    			<div class="checkbox">
+												<label><input type="checkbox">  Earth Science </label>
+								    			<label><input type="checkbox">  Biology		  </label>
+								    			<label><input type="checkbox">  Chemistry	  </label>
+								    			<label><input type="checkbox">  Physics		</label>
+								    		</div>
+							    		</td>
+						    			<td>
+							    			<div class="checkbox">
+								    			<label><input type="checkbox">  U.S. History   </label>
+					    						<label><input type="checkbox">  Global		   </label>
+					    						<label><input type="checkbox">  Social Studies </label>
+					    					</div>
+					    					</td>
+						    			<td>
+							    			<div class="checkbox">
+								    			<label><input type="checkbox">  Physical Ed  </label>
+					    						<label><input type="checkbox">  Technology	 </label>
+					    						<label><input type="checkbox">  Art 		 </label>
+					    						<label><input type="checkbox">  Health	 	 </label>
+					    						<label><input type="checkbox">  Other 		 </label>
+					    					</div>
+					    				</td>
+					    		</tr>
+
+			  			 </table>
+						</div>
+					</div>
+					
+			  			</div>
+
+	<div class="row">
+					<div class="col-sm-8"> 
+						<label for="GradeLevel"> Grade Level: </label>
+							<div class="table-responsive">
+  								<table class="table">
+									<tr>
+										<td>
+											<select class="form-control">
+												  <option>Pre-K</option>
+												  <option>Kindergarten</option>
+												  <option>1st Grade</option>
+												  <option>2nd Grade</option>
+												  <option>3rd Grade</option>
+												  <option>4th Grade</option>
+											      <option>5th Grade</option>
+											      <option>6th Grade</option>
+											      <option>7th Grade</option>
+											      <option>8th Grade</option>
+											      <option>9th Grade</option>
+										          <option>10th Grade</option>
+										          <option>11th Grade</option>
+										          <option>12th Grade</option>
+											      <option>Junior College</option>
+									              <option> Business School </option>
+									              <option> College </option>
+									              <option>University</option>
+											</select>
+										
+										</td>
+										<td>
+										<label class="checkbox-inline"> General Ed </label>
+										<input type="checkbox" id="GeneralEd" value="option1">
+										<label class="checkbox-inline"> Special Ed </label>
+									 	<input type="checkbox" id="SpecialEd" value="option2">
+										<label class="checkbox-inline"> Honors </label>
+										<input type="checkbox" id="Honors" value="option3"> 
+										<label class="checkbox-inline"> AP </label>
+										<input type="checkbox" id="AP" value="option4">
+										<label class="checkbox-inline"> CTE </label>
+										<input type="checkbox" id="CTE" value="option5">
+										<label class="checkbox-inline"> Gifted </label>
+										<input type="checkbox" id="Gifted" value="option6">  
+								</td>
+							</tr>
+
+							<tr>
+								<td>
+										<select class="form-control">
+										  <option>Pre-K</option>
+										  <option>Kindergarten</option>
+										  <option>1st Grade</option>
+										  <option>2nd Grade</option>
+										  <option>3rd Grade</option>
+										  <option>4th Grade</option>
+									      <option>5th Grade</option>
+									      <option>6th Grade</option>
+									      <option>7th Grade</option>
+									      <option>8th Grade</option>
+									      <option>9th Grade</option>
+								          <option>10th Grade</option>
+								          <option>11th Grade</option>
+								          <option>12th Grade</option>
+									      <option>Junior College</option>
+							              <option> Business School </option>
+							              <option> College </option>
+							              <option>University</option>
+										</select>
+								
+								</td>
+								<td>
+										<label class="checkbox-inline"> General Ed </label>
+										<input type="checkbox" id="GeneralEd" value="option1">
+										<label class="checkbox-inline"> Special Ed </label>
+									 	<input type="checkbox" id="SpecialEd" value="option2">
+										<label class="checkbox-inline"> Honors </label>
+										<input type="checkbox" id="Honors" value="option3"> 
+										<label class="checkbox-inline"> AP </label>
+										<input type="checkbox" id="AP" value="option4">
+										<label class="checkbox-inline"> CTE </label>
+										<input type="checkbox" id="CTE" value="option5"> 
+										<label class="checkbox-inline"> Gifted </label>
+										<input type="checkbox" id="Gifted" value="option6"> 
+									</td>
+								</tr>
+									<tr>
+									  <td>
+										<select class="form-control">
+										  <option>Pre-K</option>
+										  <option>Kindergarten</option>
+										  <option>1st Grade</option>
+										  <option>2nd Grade</option>
+										  <option>3rd Grade</option>
+										  <option>4th Grade</option>
+									      <option>5th Grade</option>
+									      <option>6th Grade</option>
+									      <option>7th Grade</option>
+									      <option>8th Grade</option>
+									      <option>9th Grade</option>
+								          <option>10th Grade</option>
+								          <option>11th Grade</option>
+								          <option>12th Grade</option>
+									      <option>Junior College</option>
+							              <option> Business School </option>
+							              <option> College </option>
+							              <option>University</option>
+										</select>
+								
+									</td>
+									<td>
+										<label class="checkbox-inline"> General Ed </label>
+										<input type="checkbox" id="GeneralEd" value="option1">
+										<label class="checkbox-inline"> Special Ed </label>
+									 	<input type="checkbox" id="SpecialEd" value="option2">
+										<label class="checkbox-inline"> Honors </label>
+										<input type="checkbox" id="Honors" value="option3"> 
+										<label class="checkbox-inline"> AP </label>
+										<input type="checkbox" id="AP" value="option4">
+										<label class="checkbox-inline"> CTE </label>
+										<input type="checkbox" id="CTE" value="option5"> 
+										<label class="checkbox-inline"> Gifted </label>
+										<input type="checkbox" id="Gifted" value="option6"> 
+									 </td>
+									</tr>
+
+									<tr>
+									 <td>
+										<select class="form-control">
+										  <option>Pre-K</option>
+										  <option>Kindergarten</option>
+										  <option>1st Grade</option>
+										  <option>2nd Grade</option>
+										  <option>3rd Grade</option>
+										  <option>4th Grade</option>
+									      <option>5th Grade</option>
+									      <option>6th Grade</option>
+									      <option>7th Grade</option>
+									      <option>8th Grade</option>
+									      <option>9th Grade</option>
+								          <option>10th Grade</option>
+								          <option>11th Grade</option>
+								          <option>12th Grade</option>
+									      <option>Junior College</option>
+							              <option> Business School </option>
+							              <option> College </option>
+							              <option>University</option>
+										</select>
+								
+									</td>
+									<td>
+										<label class="checkbox-inline"> General Ed </label>
+										<input type="checkbox" id="GeneralEd" value="option1">
+										<label class="checkbox-inline"> Special Ed </label>
+									 	<input type="checkbox" id="SpecialEd" value="option2">
+										<label class="checkbox-inline"> Honors </label>
+										<input type="checkbox" id="Honors" value="option3"> 
+										<label class="checkbox-inline"> AP </label>
+										<input type="checkbox" id="AP" value="option4">
+										<label class="checkbox-inline"> CTE </label>
+										<input type="checkbox" id="CTE" value="option5">
+										<label class="checkbox-inline"> Gifted </label>
+										<input type="checkbox" id="Gifted" value="option6">  
+									</td>
+								</tr>
+
+								<tr><td>
+									<select class="form-control">
+									  <option>Pre-K</option>
+									  <option>Kindergarten</option>
+									  <option>1st Grade</option>
+									  <option>2nd Grade</option>
+									  <option>3rd Grade</option>
+									  <option>4th Grade</option>
+								      <option>5th Grade</option>
+								      <option>6th Grade</option>
+								      <option>7th Grade</option>
+								      <option>8th Grade</option>
+								      <option>9th Grade</option>
+							          <option>10th Grade</option>
+							          <option>11th Grade</option>
+							          <option>12th Grade</option>
+								      <option>Junior College</option>
+						              <option> Business School </option>
+						              <option> College </option>
+						              <option>University</option>
+									</select>
+									</td>
+									<td>
+										<label class="checkbox-inline"> General Ed </label>
+										<input type="checkbox" id="GeneralEd" value="option1">
+										<label class="checkbox-inline"> Special Ed </label>
+									 	<input type="checkbox" id="SpecialEd" value="option2">
+										<label class="checkbox-inline"> Honors </label>
+										<input type="checkbox" id="Honors" value="option3"> 
+										<label class="checkbox-inline"> AP </label>
+										<input type="checkbox" id="AP" value="option4">
+										<label class="checkbox-inline"> CTE </label>
+										<input type="checkbox" id="CTE" value="option5"> 
+										<label class="checkbox-inline"> Gifted </label>
+										<input type="checkbox" id="Gifted" value="option6"> 
+									</td>
+								</tr>
+							
+						</table>
+					</div>
+				</div>
+
+  					<div class="col-sm-4"> 
+						<label for="Subject"> Grading Policy: </label>
+							<div class="table-responsive">
+  								<table class="table">
+  									<thead>
+  										<tr> <td>Catergory</td><td>Percentage</td></tr>
+  									</thead>
+  										<tr> <td colspan="2">
+  											<div class="form-group">
+    										<label for="Homework">Homework</label>
+    										<input type="text" class="form-control" id="Homework" placeholder="%"></div></td></tr>
+  										<tr> <td colspan="2">
+  											<div class="form-group">
+    										<label for="Classwork">Classwork</label>
+    										<input type="text" class="form-control" id="Classwork" placeholder="%"></div></td></tr>
+    									<tr> <td colspan="2">
+  											<div class="form-group">
+    										<label for="Exams">Exam</label>
+    										<input type="text" class="form-control" id="Exams" placeholder="%"></div></td></tr>
+    									<tr> <td colspan="2">
+  											<div class="form-group">
+    										<label for="Quiz">Quiz</label>
+    										<input type="text" class="form-control" id="Quiz" placeholder="%"></div></td></tr>
+  										<tr> <td colspan="2">
+  											<div class="form-group">
+    										<label for="Project">Projects</label>
+    										<input type="text" class="form-control" id="Project" placeholder="%"></div></td></tr>
+    										<tr> <td colspan="2">
+  											<div class="form-group">
+    										<label for="Partici">Participation</label>
+    										<input type="text" class="form-control" id="Partici" placeholder="%"></div></td></tr>
+  								</table>
+  							</div>
+					</div>
+				</div>
+
+								<div class="row">
+								<div class="col-sm-12"> 
+								<label for="Style"> Grading Style: </label>
+								What is important to you when grading student work?
+								<div class="table-responsive">
+				  								<table class="table">
+				  									<thead>
+				  										<tr><td>Category</td> <td>Very Important</td><td>Kinda</td><td>Not Really</td></tr>
+				  									</thead>
+				  									<tr><td>Spelling</td> <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3"> </label></td></tr>
+								  
+								  <tr><td>Grammar</td> <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3"> </label></td></tr>
+
+								   <tr><td>Content</td> <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3"> </label></td></tr>
+
+								   <tr><td>Effort</td> <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3"> </label></td></tr>
+
+								   <tr><td>Submissin Date</td> <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3"> </label></td></tr>
+
+								   <tr><td>Accuracy</td> <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option2"> </label></td>
+								  <td><label class="radio-inline">
+								  <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option3"> </label></td></tr>
+
+								</table>
+							</div>
+						</div>
+						<div class="row">
+						<div class="col-sm-12"> 
+
+								<button type="submit" class="btn btn-default" id="teach_btn">Submit</button>
+
+						</div>
+
+						</div>
+					 
+					
+			</form>
+		</div>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/custom.js"></script>
+	
+	</body>
+
+</html>

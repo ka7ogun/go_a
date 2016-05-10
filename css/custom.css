@@ -10,18 +10,46 @@
 
 }
 
-.tall { height: 500px;
+.tall { min-height: 325px;
 
 }
-
 
 .topnav li { list-style   : none;
 		  	 float		  : left;
 		  	 padding-right: 10%;
-		  	
+		  	 text-decoration: none;		  	
 
 }
 
-.dropdown { 
+.topnav li:hover {  color: #f05;
+	 				text-decoration: none;	
+
 				
+ }
+
+ .table-responsive {	max-height: 290px;
+ 						overflow-y: auto;
+
+ }
+
+ thead {	font-weight: bold;
+
+
+ }
+
+.dmessage { background-color: rgba(129,4,50,.5);
+			color: #ccc;
+
+
+}
+
+
+.topic { list-style: none;
+		font-size: 200%;
+
+
+ }
+
+
+ .btn, .btn-default {	float: right;
  }
